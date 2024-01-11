@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ExoKevin01"
         mc:Ignorable="d"
-        Title="Jour de semaine" Height="200" Width="500" Background="DarkGray">
+        Title="ExoKevin" Height="450" Width="800" Background="DarkGray">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -15,7 +15,7 @@
         </Grid.RowDefinitions>
 
         <StackPanel Grid.Column="0" Grid.Row="0" Background="Violet">
-            <TextBlock Height="40" Background="Aquamarine" Text="Ecrire un nombre (entre 1 et 7) :" Width="200" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,10,10,10" FontWeight="Bold"/>
+            <TextBlock  Height="45" Background="Aquamarine" Text="Ecrire un nombre :" VerticalAlignment="Center"/>
             <TextBox x:Name="inputUser" Width="200">
 
             </TextBox>
